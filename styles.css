@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    padding: 1.5rem 0;
+    height: 110vh;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(89, 49, 191);
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 span {
+    border-bottom: 2px solid rgb(89, 49, 191);
+    padding: 0.15rem;
+}
+
+.inner-container {
+    text-align: center;
+}
+
+#square {
+    border: 2px solid #000;
+    display: inline-block;
+    height: 400px;
+    margin: 1.5rem auto;
+    cursor: pointer;
+    width: 400px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
