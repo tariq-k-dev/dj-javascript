@@ -1,5 +1,4 @@
 const square = document.querySelector('#square');
-const container = document.querySelector('.container');
 
 function blueBackground() {
     document.removeEventListener('scroll', orangeBackground);
